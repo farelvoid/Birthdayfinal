@@ -1,11 +1,12 @@
 // ============ UBAH DI SINI ============
 const CONFIG={
-  nama:"qha",
-  kode:"241009",            // 6 digit, kode rahasia pembuka
-  tanggal:"october 24",
+  nama:"Azie",
+  kode:"241109",            // 6 digit, kode rahasia pembuka
+  tanggal:"November 24",
+  waktu:"2026-10-25T23:36:00+08:00",  // kapan hadiah terbuka (jam HP dia). format: tahun-bulan-tanggalTjam:menit:detik
   surat:[
-    "Di hari yang paling istimewa ini, saya ingin awak tahu bahwa awak adalah salah satu hal terbaik yang pernah datang ke hidup saya.",
-    "Terima kasih sudah jadi pendengar yapping, sudah sabar, dan sudah selalu ada. Semoga tahun ini penuh hal baik buat awak dan SPM straigt A+."
+    "Di hari yang paling istimewa ini, saya ingin awak tahu bahwa berjumpa dengan awak adalah salah satu hal terbaik yang datang ke hidup saya, di bumi yang pelik ni akhirnya saya jumpa dengan awak yang buat saya berpikir (dia ni beda do) camtuu.",
+    "Dan terima kasih awak sudah jadi teman yapping saya, dah mau bagi story awak ke saya dan tak annoy dengan saya (sorry kalau annoy). Dan paling penting semoga dengan bertambah nya usia awak malam ni awak jadi pribadi lebih baik,lebih pandai manage emosi awak dari orang orang stress, semoga tahun ini dan tahun tahun berikut nya penuh hal baik buat awak dan semoga SPM straight A+!!."
   ],
   bunga:[
     {e:"🌻",t:"Senyummu seperti bunga matahari, selalu menghadap cahaya dan menghangatkan sekitarnya."},
@@ -15,15 +16,15 @@ const CONFIG={
     {e:"💐",t:"Dan semoga semua doamu pelan-pelan jadi nyata."}
   ],
   foto:[ // isi src dengan path foto, contoh "img/1.jpg"
-    {src:"gambar/1.jpeg",judul:"Peace",cap:"qha versi calm."},
-    {src:"gambar/2.jpeg",judul:"Awek cortis",cap:"tak tau nama dia yang penting cortis."},
-    {src:"gambar/3.jpeg",judul:"<3",cap:"no cap just beutiful."},
-    {src:"gambar/4.jpeg",judul:"Pretty",cap:"Titut."}
+    {src:"gambar/1.jpg",judul:"masa awal",cap:"bukan awal pun, tapi second kita jumpa sebab awal tak add."},
+    {src:"gambar/2.jpg",judul:"first time awak send gambar awak",cap:"so pretty <3."},
+    {src:"gambar/3.jpg",judul:"<3",cap:"jujur saya pun bingung gambar ni bole ada lagi kat galery."},
+    {src:"gambar/4.jpg",judul:"AMENG<3",cap:"First imppresion liat ameng pemalas, tapi rinduuu."}
   ],
   timeline:[
-    {w:"Malam pertama",j:"awal kita jumpa",d:"Awalnya biasa aja, tapi ada sesuatu yang bikin saya mau kenal awak lebih dekat."},
-    {w:"Malam-malam Panjang",j:"Percakapan yang Tak Pernah Terasa Cukup",d:"borak sampai lupa waktu,main bareng dan lagi banyak story belum terucap."},
-    {w:"Hari Ini",j:"Hari yang spesial bagi awak",d:"Makin hari makin jadi seseorang yang lebih baik,dan saya harap bisa kenal lagi jauh dengan awak, nama pun masih qha huhuhuT_T."}
+    {w:"Malam pertama",j:"awal kita jumpa",d:"Awalnya saya dah nak off main,tapi tak tau la tiba tiba main map neighbour to sebab roblox bagi recomend, so tekan je lah tuk cuba and saya jumpa orang tapi selalu saya skip sebab tak pernah on mic rasa malu, bahkan awal tu saya skip awak juga tapi pas jumpa lagi awak macam marah dah sebab kena skip tapi awak tetap akal saya cakap dan tu first time aaya jumpa orang malay dan cakap on mic selain dengan kawan yang saya kenal."},
+    {w:"Malam-malam Panjang",j:"Percakapan yang Tak Pernah Terasa Cukup",d:"tetiba kita jadi dekat tak tau sebab apa, tapi rasa macam dah kenal lama sangat sampai borak lupa waktu,main bareng dan lagi banyak story belum terucap."},
+    {w:"Hari Ini",j:"Hari yang spesial bagi awak",d:"akhir sampai juga hari ni 24 November, your Birthday tanda dah hampir 1 tahun  saya kenal awak, first kenal tu desember so saya tak bole rayakan hari jadi awak dan malah awak yang rayakan hari jadi saya pulak btw kalau awak ingat tu juga pertama saya di rayakan dan rasa itu best gift yang saya terima selama ni. dan hari ni saya nak bagi awak hadiah kecil ini, hope u like it 💗."}
   ],
   lagu:[ // isi src dengan path mp3, contoh "music/lagu1.mp3"
     {judul:"her",artis:"JVKE",src:"music/her.mp3"},
@@ -31,14 +32,14 @@ const CONFIG={
     {judul:"purple",artis:"Olivia Rodrigo",src:"music/purple.mp3"}
   ],
   catatan:[
-    "Terima kasih sudah jadi orang yang selalu ada mendengar cite saya.",
-    "saya bersyukur atas kehadiran awak yang selalu berhasil menenangkan pikiran saya yang sedang kacau.",
-    "Cara awak care sama hal-hal kecil itu berharga banget.",
-    "Awak bikin hari yang berat jadi lebih ringan.",
-    "Terima kasih sudah sabar sama saya.",
-    "Always be happy, sebab tawa awak selalu buat saya happy jugaa....",
+    "Terima kasih sudah jadi orang yang membuat saya merasa lebih bewarna dengan kehadiran awak.",
+    "Hidup yang lama, Always be a good person walau banyak orang stres sekitar kita.",
+    "Jangan stop yapping tau....",
+    "Always berdoa untuk semua hal and never give up.",
+    "Terima kasih sudah menjadi seorang azie yang selalu care dengan banyak orang.",
+    "Always be happy jangan sedih sedih, sebab tawa awak selalu buat saya happy jugaa....",
     "Kamu apa adanya jangan peduli dengan orang yang tak suka awak, dan itu cukup banget maybe lebih dari cukup.",
-    "Saya senang kenal awak."
+    "Saya selalu ada bila awak butuh."
   ],
   penutup:"Dengan cinta yang tidak pernah habis 💗"
 };
@@ -76,9 +77,33 @@ function key(k){
  else if(buf.length<6){buf+=k;if(buf.length===6)setTimeout(check,150)}
  draw()}
 function check(){
- if(buf===C.kode){$('#lock').classList.add('fade');setTimeout(()=>{$('#lock').remove();$('#giftScr').classList.remove('hidden')},700)}
+ if(buf===C.kode){$('#lock').classList.add('fade');setTimeout(()=>{$('#lock').remove();lanjut()},700)}
  else{const b=$('#lockbox');b.classList.remove('shake');void b.offsetWidth;b.classList.add('shake');buf='';draw()}}
 document.addEventListener('keydown',e=>{if($('#lock')&&!$('#lock').classList.contains('hidden')){if(/\d/.test(e.key))key(e.key);else if(e.key==='Backspace')key('✕');else if(e.key==='Enter')key('↵')}});
+
+
+// countdown sebelum hadiah terbuka
+function bukaGift(){$('#giftScr').classList.remove('hidden')}
+function lanjut(){
+ const T=new Date(C.waktu).getTime();
+ if(isNaN(T)||Date.now()>=T){bukaGift();return}
+ const el=document.createElement('div');el.id='cdScr';el.className='screen';
+ const tg=new Date(T).toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Kuala_Lumpur'}).toUpperCase();
+ const kotak=['HARI','JAM','MENIT','DETIK'].map((l,i)=>`<div class="cb"><b id="cd${i}">00</b><small>${l}</small></div>`).join('<span class="cc">:</span>');
+ el.innerHTML=`<div class="eyebrow">✦ MENGHITUNG HARI ✦</div>
+  <h1 class="cdh">Hari Spesialmu<em>Sebentar Lagi</em></h1>
+  <p class="cdsub">Sesuatu yang indah sedang menunggu waktunya 💜</p>
+  <div class="cdbox">${kotak}</div>
+  <div class="cdtgl">${tg}</div>
+  <button class="btn cdbtn" disabled>🔒 Belum waktunya</button>`;
+ document.body.append(el);
+ const p2=n=>String(n).padStart(2,'0');
+ function tick(){
+  let d=Math.max(0,T-Date.now());
+  if(d<=0){clearInterval(iv);confetti();el.classList.add('fade');setTimeout(()=>{el.remove();bukaGift()},900);return}
+  const v=[Math.floor(d/864e5),Math.floor(d/36e5)%24,Math.floor(d/6e4)%60,Math.floor(d/1e3)%60];
+  v.forEach((x,i)=>{const b=$('#cd'+i);if(b)b.textContent=p2(x)})}
+ const iv=setInterval(tick,1000);tick()}
 
 // kotak hadiah -> bunga -> halaman utama
 $('#gift').onclick=()=>{
@@ -94,7 +119,12 @@ function confetti(){for(let i=0;i<60;i++){const c=document.createElement('i');c.
  c.style.cssText=`left:${rnd(0,100)}vw;background:hsl(${rnd(0,360)},80%,70%);animation-duration:${rnd(2,4)}s;animation-delay:${rnd(0,.8)}s`;document.body.append(c);setTimeout(()=>c.remove(),5000)}}
 
 // kue
-$('#cake').onclick=()=>{const c=$('#cake');if(!c.classList.contains('off')){c.classList.add('off');confetti();$('.tap').textContent='Semoga semua harapanmu terkabul! ✨'}else{c.classList.remove('off');$('.tap').textContent='Tap lilin untuk meniupnya! 🎂'}};
+function tutup17(){const p=$('.pop17');if(!p||p.classList.contains('out'))return;p.classList.add('out');setTimeout(()=>p.remove(),500)}
+function pop17(){if($('.pop17'))return;const p=document.createElement('div');p.className='pop17';
+ let sp='';for(let i=0;i<16;i++)sp+=`<span style="left:${rnd(0,100)}%;top:${rnd(0,100)}%;font-size:${rnd(14,30)}px;animation-delay:${rnd(0,2)}s">${['✨','💜','🪻','✨'][i%4]}</span>`;
+ p.innerHTML=`${sp}<div class="card"><div class="tt">Happy Sweet Seventeen Aziera</div><div class="n">17</div><small>Tap untuk menutup</small></div>`;
+ p.onclick=tutup17;document.body.append(p);setTimeout(tutup17,7000)}
+$('#cake').onclick=()=>{const c=$('#cake');if(!c.classList.contains('off')){c.classList.add('off');confetti();setTimeout(pop17,500);$('.tap').textContent='Semoga semua harapanmu terkabul! ✨'}else{c.classList.remove('off');tutup17();$('.tap').textContent='Tap lilin untuk meniupnya! 🎂'}};
 
 // buket
 const bq=$('#bq'),n=C.bunga.length;
@@ -130,7 +160,7 @@ $('#bar').onclick=e=>{const r=e.currentTarget.getBoundingClientRect();au.current
 load(0);
 
 // toples
-const cols=['#f4a6c0','#ffd86b','#8fd0ff','#b9e4a8'];
+const cols=['#cfa8f7','#ffd86b','#8fd0ff','#e0b8ff'];
 for(let i=0;i<9;i++){const k=document.createElement('i');k.style.cssText=`left:${rnd(4,44)}px;bottom:${rnd(4,26)}px;background:${cols[i%4]};transform:rotate(${rnd(-50,50)}deg)`;$('#jar').append(k)}
 let seen=[];
 $('#shake').onclick=()=>{
